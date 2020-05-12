@@ -2,7 +2,12 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "name": "Login",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@driver"
+    }
+  ]
 });
 formatter.background({
   "name": "",
@@ -25,7 +30,12 @@ formatter.result({
 formatter.scenario({
   "name": "Login as CRM Manager",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@driver"
+    }
+  ]
 });
 formatter.step({
   "name": "user logs in as CRM manager",
@@ -81,7 +91,12 @@ formatter.result({
 formatter.scenario({
   "name": "Use logins as Inventory manager Manager",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@driver"
+    }
+  ]
 });
 formatter.step({
   "name": "user logs in as Inventory manager",

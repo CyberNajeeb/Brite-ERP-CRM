@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "resources/features",
         glue = "com/automation/step_definitions",
         dryRun = false,
-        tags = "",
+        tags = "@driver",
         strict = false,
         plugin = {
                 "html:target/cucumber-html-report",

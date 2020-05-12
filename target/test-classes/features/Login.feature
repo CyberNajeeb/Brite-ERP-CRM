@@ -1,3 +1,4 @@
+@driver
 Feature: Login
   Background:
     When user is on login page

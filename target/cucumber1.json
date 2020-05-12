@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 2,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4982024000,
+              "duration": 4484771000,
               "status": "passed"
             },
-            "line": 3,
+            "line": 4,
             "name": "user is on login page",
             "match": {
               "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-12T06:22:14.944Z",
+        "start_timestamp": "2020-05-12T06:37:56.323Z",
         "before": [
           {
             "result": {
-              "duration": 491000,
+              "duration": 503000,
               "status": "passed"
             },
             "match": {
@@ -36,14 +36,14 @@
             }
           }
         ],
-        "line": 5,
+        "line": 6,
         "name": "Login as CRM Manager",
         "description": "",
         "id": "login;login-as-crm-manager",
         "after": [
           {
             "result": {
-              "duration": 145199000,
+              "duration": 169362000,
               "status": "passed"
             },
             "match": {
@@ -56,10 +56,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4828088000,
+              "duration": 5990174000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user logs in as CRM manager",
             "match": {
               "location": "com.automation.step_definitions.Login.user_logs_in_as_CRM_manager()"
@@ -68,10 +68,10 @@
           },
           {
             "result": {
-              "duration": 10007486000,
+              "duration": 9887828000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "user navigates to CRM tab",
             "match": {
               "location": "com.automation.step_definitions.Login.user_Navigates_To_CRM_Tab()"
@@ -80,20 +80,25 @@
           },
           {
             "result": {
-              "duration": 1367410000,
+              "duration": 1753335000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "user confirms successful login by getting current CRM username",
             "match": {
               "location": "com.automation.step_definitions.Login.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
+          }
         ]
       },
       {
-        "line": 2,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -101,10 +106,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2514864000,
+              "duration": 2749191000,
               "status": "passed"
             },
-            "line": 3,
+            "line": 4,
             "name": "user is on login page",
             "match": {
               "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
@@ -114,11 +119,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-12T06:22:36.336Z",
+        "start_timestamp": "2020-05-12T06:38:18.649Z",
         "before": [
           {
             "result": {
-              "duration": 71000,
+              "duration": 62000,
               "status": "passed"
             },
             "match": {
@@ -126,14 +131,14 @@
             }
           }
         ],
-        "line": 10,
+        "line": 11,
         "name": "Use logins as Inventory manager Manager",
         "description": "",
         "id": "login;use-logins-as-inventory-manager-manager",
         "after": [
           {
             "result": {
-              "duration": 142334000,
+              "duration": 141930000,
               "status": "passed"
             },
             "match": {
@@ -146,10 +151,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4856003000,
+              "duration": 5693622000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "user logs in as Inventory manager",
             "match": {
               "location": "com.automation.step_definitions.Login.user_logs_in_as_Inventory_manager()"
@@ -158,10 +163,10 @@
           },
           {
             "result": {
-              "duration": 9645498000,
+              "duration": 9655017000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "user navigates to Inventory tab",
             "match": {
               "location": "com.automation.step_definitions.Login.user_navigates_to_Inventory_tab()"
@@ -170,15 +175,20 @@
           },
           {
             "result": {
-              "duration": 1315078000,
+              "duration": 1313365000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "user confirms successful login by getting current Inventory username",
             "match": {
               "location": "com.automation.step_definitions.Login.user_confirms_successful_login_by_getting_current_Inventory_username()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
           }
         ]
       }
@@ -188,6 +198,15 @@
     "id": "login",
     "keyword": "Feature",
     "uri": "file:resources/features/Login.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@driver",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

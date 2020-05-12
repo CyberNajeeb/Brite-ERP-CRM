@@ -15,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bkxYgQzg1aOJwX6AvuzLZMf37Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -122,25 +122,25 @@
       <screen x="2048" y="112" width="1920" height="1080" />
     </state>
     <state x="2755" y="461" key="#com.intellij.fileTypes.FileTypeChooser/2048.112.1920.1080/0.0.2048.1152@2048.112.1920.1080" timestamp="1589192436493" />
-    <state width="1878" height="274" key="GridCell.Tab.0.bottom" timestamp="1589263424746">
+    <state width="1878" height="274" key="GridCell.Tab.0.bottom" timestamp="1589264857621">
       <screen x="2048" y="135" width="1920" height="1057" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.bottom/2048.112.1920.1080/0.0.2048.1152@2048.112.1920.1080" timestamp="1589192858295" />
-    <state width="1878" height="274" key="GridCell.Tab.0.bottom/2048.135.1920.1057/0.23.2048.1080@2048.135.1920.1057" timestamp="1589263424746" />
-    <state width="1878" height="274" key="GridCell.Tab.0.center" timestamp="1589263424745">
+    <state width="1878" height="274" key="GridCell.Tab.0.bottom/2048.135.1920.1057/0.23.2048.1080@2048.135.1920.1057" timestamp="1589264857621" />
+    <state width="1878" height="274" key="GridCell.Tab.0.center" timestamp="1589264857620">
       <screen x="2048" y="135" width="1920" height="1057" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.center/2048.112.1920.1080/0.0.2048.1152@2048.112.1920.1080" timestamp="1589192858293" />
-    <state width="1878" height="274" key="GridCell.Tab.0.center/2048.135.1920.1057/0.23.2048.1080@2048.135.1920.1057" timestamp="1589263424745" />
-    <state width="1878" height="274" key="GridCell.Tab.0.left" timestamp="1589263424745">
+    <state width="1878" height="274" key="GridCell.Tab.0.center/2048.135.1920.1057/0.23.2048.1080@2048.135.1920.1057" timestamp="1589264857620" />
+    <state width="1878" height="274" key="GridCell.Tab.0.left" timestamp="1589264857620">
       <screen x="2048" y="135" width="1920" height="1057" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.left/2048.112.1920.1080/0.0.2048.1152@2048.112.1920.1080" timestamp="1589192858292" />
-    <state width="1878" height="274" key="GridCell.Tab.0.left/2048.135.1920.1057/0.23.2048.1080@2048.135.1920.1057" timestamp="1589263424745" />
-    <state width="1878" height="274" key="GridCell.Tab.0.right" timestamp="1589263424746">
+    <state width="1878" height="274" key="GridCell.Tab.0.left/2048.135.1920.1057/0.23.2048.1080@2048.135.1920.1057" timestamp="1589264857620" />
+    <state width="1878" height="274" key="GridCell.Tab.0.right" timestamp="1589264857621">
       <screen x="2048" y="135" width="1920" height="1057" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.right/2048.112.1920.1080/0.0.2048.1152@2048.112.1920.1080" timestamp="1589192858294" />
-    <state width="1878" height="274" key="GridCell.Tab.0.right/2048.135.1920.1057/0.23.2048.1080@2048.135.1920.1057" timestamp="1589263424746" />
+    <state width="1878" height="274" key="GridCell.Tab.0.right/2048.135.1920.1057/0.23.2048.1080@2048.135.1920.1057" timestamp="1589264857621" />
   </component>
 </project>

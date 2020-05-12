@@ -1,0 +1,193 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4982024000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-12T06:22:14.944Z",
+        "before": [
+          {
+            "result": {
+              "duration": 491000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login as CRM Manager",
+        "description": "",
+        "id": "login;login-as-crm-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 145199000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4828088000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in as CRM manager",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_logs_in_as_CRM_manager()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10007486000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to CRM tab",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_Navigates_To_CRM_Tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1367410000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user confirms successful login by getting current CRM username",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2514864000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-12T06:22:36.336Z",
+        "before": [
+          {
+            "result": {
+              "duration": 71000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Use logins as Inventory manager Manager",
+        "description": "",
+        "id": "login;use-logins-as-inventory-manager-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 142334000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4856003000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logs in as Inventory manager",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_logs_in_as_Inventory_manager()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9645498000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to Inventory tab",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_navigates_to_Inventory_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1315078000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user confirms successful login by getting current Inventory username",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_confirms_successful_login_by_getting_current_Inventory_username()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:resources/features/Login.feature",
+    "tags": []
+  }
+]

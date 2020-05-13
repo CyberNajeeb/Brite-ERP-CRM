@@ -3,32 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2988441000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
-            },
-            "keyword": "When "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-12T06:56:58.284Z",
+        "start_timestamp": "2020-05-13T10:20:07.499Z",
         "before": [
           {
             "result": {
-              "duration": 481000,
+              "duration": 504000,
               "status": "passed"
             },
             "match": {
@@ -36,14 +15,14 @@
             }
           }
         ],
-        "line": 6,
-        "name": "Login as CRM Manager",
+        "line": 20,
+        "name": "user signs in with imm30@info.com and inventorymanager",
         "description": "",
-        "id": "login;login-as-crm-manager",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;2",
         "after": [
           {
             "result": {
-              "duration": 74485000,
+              "duration": 73299000,
               "status": "passed"
             },
             "match": {
@@ -52,43 +31,42 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3756349000,
+              "duration": 2779640000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user logs in as CRM manager",
+            "line": 5,
+            "name": "user is on login page",
             "match": {
-              "location": "com.automation.step_definitions.Login.user_logs_in_as_CRM_manager()"
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 9305517000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: dc259f8d39e09d225556318aaebfedcf\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"imm30@info.com\" and \"inventorymanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 24548000,
+              "status": "failed"
             },
-            "line": 8,
-            "name": "user navigates to CRM tab",
+            "line": 17,
+            "name": "user signs in with \"imm30@info.com\" and \"inventorymanager\"",
             "match": {
-              "location": "com.automation.step_definitions.Login.user_Navigates_To_CRM_Tab()"
+              "arguments": [
+                {
+                  "val": "\"imm30@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"inventorymanager\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 87800000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user confirms successful login by getting current CRM username",
-            "match": {
-              "location": "com.automation.step_definitions.Login.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username()"
-            },
-            "keyword": "Then "
+            "keyword": "When "
           }
         ],
         "tags": [
@@ -98,28 +76,372 @@
         ]
       },
       {
-        "line": 3,
-        "name": "",
+        "start_timestamp": "2020-05-13T10:20:10.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "user signs in with imm31@info.com and inventorymanager",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 72826000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 889252000,
+              "duration": 929021000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "user is on login page",
             "match": {
               "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
             },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: eb45b4ae881bd7e450b02e9a195985cc\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"imm31@info.com\" and \"inventorymanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 13387000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"imm31@info.com\" and \"inventorymanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"imm31@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"inventorymanager\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
             "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
           }
         ]
       },
       {
-        "start_timestamp": "2020-05-12T06:57:14.593Z",
+        "start_timestamp": "2020-05-13T10:20:11.480Z",
+        "before": [
+          {
+            "result": {
+              "duration": 59000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "user signs in with imm32@info.com and inventorymanager",
+        "description": "",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 71903000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 900630000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53336}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 8031db90adeb898c799db236c28d6aad\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"imm32@info.com\" and \"inventorymanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 11107000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"imm32@info.com\" and \"inventorymanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"imm32@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"inventorymanager\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-13T10:20:12.468Z",
+        "before": [
+          {
+            "result": {
+              "duration": 68000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "user signs in with imm33@info.com and inventorymanager",
+        "description": "",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 73202000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 848613000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53351}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3d666223bfac0301115584dac5efe958\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"imm33@info.com\" and \"inventorymanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 11924000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"imm33@info.com\" and \"inventorymanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"imm33@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"inventorymanager\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-13T10:20:13.406Z",
+        "before": [
+          {
+            "result": {
+              "duration": 71000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "user signs in with imm34@info.com and inventorymanager",
+        "description": "",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 72786000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 835504000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 83ddb2cee64e7428086513324433407d\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"imm34@info.com\" and \"inventorymanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 12363000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"imm34@info.com\" and \"inventorymanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"imm34@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"inventorymanager\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-13T10:20:14.332Z",
+        "before": [
+          {
+            "result": {
+              "duration": 79000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "user signs in with posmanager60@info.com and posmanager",
+        "description": "",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 73090000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 858917000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 60386e0a3cf0f777f478451d6ba25dd0\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"posmanager60@info.com\" and \"posmanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 12777000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"posmanager60@info.com\" and \"posmanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posmanager60@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"posmanager\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-13T10:20:15.281Z",
         "before": [
           {
             "result": {
@@ -131,14 +453,14 @@
             }
           }
         ],
-        "line": 11,
-        "name": "Use logins as Inventory manager Manager",
+        "line": 26,
+        "name": "user signs in with posmanager61@info.com and posmanager",
         "description": "",
-        "id": "login;use-logins-as-inventory-manager-manager",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;8",
         "after": [
           {
             "result": {
-              "duration": 73436000,
+              "duration": 74200000,
               "status": "passed"
             },
             "match": {
@@ -147,43 +469,407 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3701813000,
+              "duration": 836806000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "user logs in as Inventory manager",
+            "line": 5,
+            "name": "user is on login page",
             "match": {
-              "location": "com.automation.step_definitions.Login.user_logs_in_as_Inventory_manager()"
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 9274064000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53395}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1331c2292f41aedea157d0ffcb1c97b2\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"posmanager61@info.com\" and \"posmanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 11051000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"posmanager61@info.com\" and \"posmanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posmanager61@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"posmanager\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-13T10:20:16.208Z",
+        "before": [
+          {
+            "result": {
+              "duration": 72000,
               "status": "passed"
             },
-            "line": 13,
-            "name": "user navigates to Inventory tab",
             "match": {
-              "location": "com.automation.step_definitions.Login.user_navigates_to_Inventory_tab()"
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "user signs in with posmanager62@info.com and posmanager",
+        "description": "",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 125827000,
+              "status": "passed"
             },
-            "keyword": "Then "
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 826596000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 79055000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b1340281fd6f332404be90c46d5ab6cd\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"posmanager62@info.com\" and \"posmanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 11393000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"posmanager62@info.com\" and \"posmanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posmanager62@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"posmanager\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-13T10:20:17.176Z",
+        "before": [
+          {
+            "result": {
+              "duration": 63000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "user confirms successful login by getting current Inventory username",
             "match": {
-              "location": "com.automation.step_definitions.Login.user_confirms_successful_login_by_getting_current_Inventory_username()"
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "user signs in with posmanager63@info.com and posmanager",
+        "description": "",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 73379000,
+              "status": "passed"
             },
-            "keyword": "Then "
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 858472000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53423}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 4f1a0e6ea355ad10c3d24e75b012d345\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"posmanager63@info.com\" and \"posmanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 11404000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"posmanager63@info.com\" and \"posmanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posmanager63@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"posmanager\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-13T10:20:18.123Z",
+        "before": [
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "user signs in with posmanager64@info.com and posmanager",
+        "description": "",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 73611000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 837955000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 912c757a8a5ed1360b93befcc76fc402\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"posmanager64@info.com\" and \"posmanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 10735000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"posmanager64@info.com\" and \"posmanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posmanager64@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"posmanager\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-13T10:20:19.049Z",
+        "before": [
+          {
+            "result": {
+              "duration": 67000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "user signs in with eventscrmmanager38@info.com and eventscrmmanager",
+        "description": "",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 71699000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 814789000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 76c5b841668fa9cbf23555273503f231\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"eventscrmmanager38@info.com\" and \"eventscrmmanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 12321000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"eventscrmmanager38@info.com\" and \"eventscrmmanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eventscrmmanager38@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"eventscrmmanager\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@driver"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-13T10:20:19.952Z",
+        "before": [
+          {
+            "result": {
+              "duration": 57000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "user signs in with eventscrmmanager39@info.com and eventscrmmanager",
+        "description": "",
+        "id": "login;user-signs-in-with-\u003cusername\u003e-and-\u003cpassword\u003e;;13",
+        "after": [
+          {
+            "result": {
+              "duration": 76112000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.step_definitions.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 858838000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.step_definitions.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u00272600:6c50:617f:f2b6:0:0:0:1acf%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: /var/folders/kc/ydd76fzj53b...}, goog:chromeOptions: {debuggerAddress: localhost:53465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2c02b489cb9b6283f4e01b13647495e1\n*** Element info: {Using\u003did, value\u003dlogin}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat com.automation.pages.LoginPage.login(LoginPage.java:49)\n\tat com.automation.step_definitions.Login.user_signs_in_with_and(Login.java:57)\n\tat ✽.user signs in with \"eventscrmmanager39@info.com\" and \"eventscrmmanager\"(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:17)\n",
+              "duration": 31061000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user signs in with \"eventscrmmanager39@info.com\" and \"eventscrmmanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eventscrmmanager39@info.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"eventscrmmanager\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.automation.step_definitions.Login.user_signs_in_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
           }
         ],
         "tags": [

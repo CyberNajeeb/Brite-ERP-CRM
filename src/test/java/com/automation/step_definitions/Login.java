@@ -8,6 +8,9 @@ import com.automation.utilities.Driver;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 
+import java.util.List;
+import java.util.Map;
+
 public class Login extends BasePage {
 
     LoginPage loginPage = new LoginPage();
@@ -47,5 +50,10 @@ public class Login extends BasePage {
     public void user_Confirms_Successful_Login_By_Getting_Current_CRM_Username() {
         System.out.println("Current UserName = " + getCurrentUserName());
         Assert.assertEquals(getCurrentUserName(), "EventsCRMManager38");
+    }
+
+    @When("user signs in with {string} and {string}")
+    public void user_signs_in_with_and(String string, String string2) {
+        loginPage.login(string, string2);
     }
 }

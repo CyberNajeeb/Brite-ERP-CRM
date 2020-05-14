@@ -1,17 +1,14 @@
 package com.automation.step_definitions;
 
 import com.automation.pages.BasePage;
+import com.automation.pages.InventoryManagerPage;
 import com.automation.pages.LoginPage;
-import com.automation.utilities.BrowserUtilities;
 import com.automation.utilities.ConfigurationReader;
 import com.automation.utilities.Driver;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 
-import java.util.List;
-import java.util.Map;
-
-public class Login extends BasePage {
+public class LoginStepDefinitions extends BasePage {
 
     LoginPage loginPage = new LoginPage();
     @When("user is on login page")
@@ -46,14 +43,14 @@ public class Login extends BasePage {
         Assert.assertEquals(getCurrentUserName(), "InventoryManager30");
     }
 
-    @Then("user confirms successful login by getting current CRM username")
-    public void user_Confirms_Successful_Login_By_Getting_Current_CRM_Username() {
+    @Then("user confirms successful login by getting {string} username")
+    public void user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(String current_username) {
         System.out.println("Current UserName = " + getCurrentUserName());
-        Assert.assertEquals(getCurrentUserName(), "EventsCRMManager38");
+        Assert.assertEquals(getCurrentUserName(), current_username);
     }
 
-    @When("user signs in with {string} and {string}")
-    public void user_signs_in_with_and(String string, String string2) {
-        loginPage.login(string, string2);
+    @When("user signs in with {string} username and {string} password")
+    public void user_signs_in_with_and_password(String username, String password) {
+        loginPage.login(username, password);
     }
 }

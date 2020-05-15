@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-05-14T06:50:09.458Z",
+        "start_timestamp": "2020-05-15T10:34:32.421Z",
         "before": [
           {
             "result": {
-              "duration": 498000,
+              "duration": 856000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 19,
-        "name": "user signs in with username: imm30@info.com and password: inventorymanager",
+        "line": 31,
+        "name": "user signs in with username: eventscrmmanager38@info.com and password: eventscrmmanager",
         "description": "",
         "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;2",
         "after": [
           {
             "result": {
-              "duration": 145689000,
+              "duration": 114176000,
               "status": "passed"
             },
             "match": {
@@ -35,919 +35,19 @@
         "steps": [
           {
             "result": {
-              "duration": 5800286000,
+              "duration": 3053412000,
               "status": "passed"
             },
             "line": 6,
             "name": "user is on login page",
             "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5818771000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user signs in with \"imm30@info.com\" username and \"inventorymanager\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"imm30@info.com\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"inventorymanager\"",
-                  "offset": 49
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_signs_in_with_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1455019000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user confirms successful login by getting \"InventoryManager30\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"InventoryManager30\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@driver"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-14T06:50:22.876Z",
-        "before": [
-          {
-            "result": {
-              "duration": 60000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 20,
-        "name": "user signs in with username: imm31@info.com and password: inventorymanager",
-        "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 142899000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2473991000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4963088000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user signs in with \"imm31@info.com\" username and \"inventorymanager\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"imm31@info.com\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"inventorymanager\"",
-                  "offset": 49
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_signs_in_with_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1330604000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user confirms successful login by getting \"InventoryManager31\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"InventoryManager31\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@driver"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-14T06:50:31.791Z",
-        "before": [
-          {
-            "result": {
-              "duration": 57000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 21,
-        "name": "user signs in with username: imm32@info.com and password: inventorymanager",
-        "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 145731000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2486338000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4871881000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user signs in with \"imm32@info.com\" username and \"inventorymanager\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"imm32@info.com\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"inventorymanager\"",
-                  "offset": 49
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_signs_in_with_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1367182000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user confirms successful login by getting \"InventoryManager32\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"InventoryManager32\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@driver"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-14T06:50:40.665Z",
-        "before": [
-          {
-            "result": {
-              "duration": 117000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "user signs in with username: imm33@info.com and password: inventorymanager",
-        "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 141316000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2212868000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4975822000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user signs in with \"imm33@info.com\" username and \"inventorymanager\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"imm33@info.com\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"inventorymanager\"",
-                  "offset": 49
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_signs_in_with_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1369699000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user confirms successful login by getting \"InventoryManager33\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"InventoryManager33\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@driver"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-14T06:50:49.368Z",
-        "before": [
-          {
-            "result": {
-              "duration": 77000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "user signs in with username: imm34@info.com and password: inventorymanager",
-        "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 145607000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2302249000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4969833000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user signs in with \"imm34@info.com\" username and \"inventorymanager\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"imm34@info.com\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"inventorymanager\"",
-                  "offset": 49
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_signs_in_with_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1427279000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user confirms successful login by getting \"InventoryManager34\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"InventoryManager34\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@driver"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-14T06:50:58.217Z",
-        "before": [
-          {
-            "result": {
-              "duration": 68000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "user signs in with username: posmanager60@info.com and password: posmanager",
-        "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;7",
-        "after": [
-          {
-            "result": {
-              "duration": 139301000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2313337000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5695261000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user signs in with \"posmanager60@info.com\" username and \"posmanager\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"posmanager60@info.com\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"posmanager\"",
-                  "offset": 56
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_signs_in_with_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1370690000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user confirms successful login by getting \"POSManager60\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"POSManager60\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@driver"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-14T06:51:07.739Z",
-        "before": [
-          {
-            "result": {
-              "duration": 62000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 25,
-        "name": "user signs in with username: posmanager61@info.com and password: posmanager",
-        "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;8",
-        "after": [
-          {
-            "result": {
-              "duration": 143085000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2274142000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4926479000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user signs in with \"posmanager61@info.com\" username and \"posmanager\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"posmanager61@info.com\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"posmanager\"",
-                  "offset": 56
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_signs_in_with_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1367838000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user confirms successful login by getting \"POSManager61\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"POSManager61\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@driver"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-14T06:51:16.455Z",
-        "before": [
-          {
-            "result": {
-              "duration": 96000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 26,
-        "name": "user signs in with username: posmanager62@info.com and password: posmanager",
-        "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;9",
-        "after": [
-          {
-            "result": {
-              "duration": 148169000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2144695000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4978042000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user signs in with \"posmanager62@info.com\" username and \"posmanager\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"posmanager62@info.com\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"posmanager\"",
-                  "offset": 56
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_signs_in_with_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1395482000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user confirms successful login by getting \"POSManager62\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"POSManager62\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@driver"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-14T06:51:25.125Z",
-        "before": [
-          {
-            "result": {
-              "duration": 64000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 27,
-        "name": "user signs in with username: posmanager63@info.com and password: posmanager",
-        "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;10",
-        "after": [
-          {
-            "result": {
-              "duration": 149459000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2496491000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4924184000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user signs in with \"posmanager63@info.com\" username and \"posmanager\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"posmanager63@info.com\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"posmanager\"",
-                  "offset": 56
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_signs_in_with_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1353552000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user confirms successful login by getting \"POSManager63\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"POSManager63\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@driver"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-14T06:51:34.071Z",
-        "before": [
-          {
-            "result": {
-              "duration": 133000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 28,
-        "name": "user signs in with username: posmanager64@info.com and password: posmanager",
-        "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;11",
-        "after": [
-          {
-            "result": {
-              "duration": 141953000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2639378000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5070123000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user signs in with \"posmanager64@info.com\" username and \"posmanager\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"posmanager64@info.com\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"posmanager\"",
-                  "offset": 56
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_signs_in_with_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1384601000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user confirms successful login by getting \"POSManager64\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"POSManager64\"",
-                  "offset": 42
-                }
-              ],
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@driver"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-14T06:51:43.311Z",
-        "before": [
-          {
-            "result": {
-              "duration": 80000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 29,
-        "name": "user signs in with username: eventscrmmanager38@info.com and password: eventscrmmanager",
-        "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;12",
-        "after": [
-          {
-            "result": {
-              "duration": 142306000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.automation.step_definitions.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2710202000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5370589000,
+              "duration": 3756359000,
               "status": "passed"
             },
             "line": 15,
@@ -969,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 1378046000,
+              "duration": 210838000,
               "status": "passed"
             },
             "line": 16,
@@ -984,6 +84,79 @@
               "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5304333000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user navigates to CRM tab",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.user_Navigates_To_CRM_Tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1049266000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Manager clicks on create button",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.managerClicksOnCreateButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been \"select\" but was \"input\"\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u0027fe80:0:0:0:1478:7444:3b50:d7d9%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:48)\n\tat com.automation.pages.CRMManagerPage.setCustomerName(CRMManagerPage.java:34)\n\tat com.automation.step_definitions.CRMManagerStepDefinitions.managerSelectsCustomerName(CRMManagerStepDefinitions.java:47)\n\tat ✽.Manager selects customer name(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:20)\n",
+              "duration": 2018154000,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "Manager selects customer name",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.managerSelectsCustomerName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Manager sets the expected revenue",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.managerSetsTheExpectedRevenue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Manager sets the priority",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.managerSetsThePriority()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Manager clicks on create new opportunity button",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.managerClicksOnCreateNewOpportunityButton()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -993,11 +166,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-14T06:51:53.012Z",
+        "start_timestamp": "2020-05-15T10:34:47.999Z",
         "before": [
           {
             "result": {
-              "duration": 61000,
+              "duration": 56000,
               "status": "passed"
             },
             "match": {
@@ -1005,14 +178,14 @@
             }
           }
         ],
-        "line": 30,
+        "line": 32,
         "name": "user signs in with username: eventscrmmanager39@info.com and password: eventscrmmanager",
         "description": "",
-        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;13",
+        "id": "login;user-signs-in-with-username:-\u003cusername\u003e-and-password:-\u003cpassword\u003e;;3",
         "after": [
           {
             "result": {
-              "duration": 145753000,
+              "duration": 84966000,
               "status": "passed"
             },
             "match": {
@@ -1025,19 +198,19 @@
         "steps": [
           {
             "result": {
-              "duration": 2381684000,
+              "duration": 1339364000,
               "status": "passed"
             },
             "line": 6,
             "name": "user is on login page",
             "match": {
-              "location": "com.automation.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4871207000,
+              "duration": 3852697000,
               "status": "passed"
             },
             "line": 15,
@@ -1059,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 1358085000,
+              "duration": 75811000,
               "status": "passed"
             },
             "line": 16,
@@ -1072,6 +245,79 @@
                 }
               ],
               "location": "com.automation.step_definitions.LoginStepDefinitions.user_Confirms_Successful_Login_By_Getting_Current_CRM_Username(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5251327000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user navigates to CRM tab",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.user_Navigates_To_CRM_Tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1047728000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Manager clicks on create button",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.managerClicksOnCreateButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been \"select\" but was \"input\"\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Najeebs-iMac.local\u0027, ip: \u0027fe80:0:0:0:1478:7444:3b50:d7d9%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.4\u0027, java.version: \u002714\u0027\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:48)\n\tat com.automation.pages.CRMManagerPage.setCustomerName(CRMManagerPage.java:34)\n\tat com.automation.step_definitions.CRMManagerStepDefinitions.managerSelectsCustomerName(CRMManagerStepDefinitions.java:47)\n\tat ✽.Manager selects customer name(file:///Users/mohammadsohrabi/Desktop/Cybertek/Brite-ERP-CRM/resources/features/Login.feature:20)\n",
+              "duration": 2019268000,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "Manager selects customer name",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.managerSelectsCustomerName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Manager sets the expected revenue",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.managerSetsTheExpectedRevenue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Manager sets the priority",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.managerSetsThePriority()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Manager clicks on create new opportunity button",
+            "match": {
+              "location": "com.automation.step_definitions.CRMManagerStepDefinitions.managerClicksOnCreateNewOpportunityButton()"
             },
             "keyword": "Then "
           }

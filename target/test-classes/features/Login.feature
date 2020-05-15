@@ -14,17 +14,19 @@ Feature: Login
 
     When user signs in with "<username>" username and "<password>" password
     Then user confirms successful login by getting "<current_username>" username
+    Then user navigates to CRM tab
+    Then Manager clicks on create button
+#    Then Manager enters opportunity title
+    And Manager selects customer name
+    And Manager sets the expected revenue
+    And Manager sets the priority
+    Then Manager clicks on create new opportunity button
     Examples:
       | username                    | password         | current_username   |
-      | imm30@info.com              | inventorymanager | InventoryManager30 |
-      | imm31@info.com              | inventorymanager | InventoryManager31 |
-      | imm32@info.com              | inventorymanager | InventoryManager32 |
-      | imm33@info.com              | inventorymanager | InventoryManager33 |
-      | imm34@info.com              | inventorymanager | InventoryManager34 |
-      | posmanager60@info.com       | posmanager       | POSManager60       |
-      | posmanager61@info.com       | posmanager       | POSManager61       |
-      | posmanager62@info.com       | posmanager       | POSManager62       |
-      | posmanager63@info.com       | posmanager       | POSManager63       |
-      | posmanager64@info.com       | posmanager       | POSManager64       |
+#      | posmanager60@info.com       | posmanager       | POSManager60       |
+#      | posmanager61@info.com       | posmanager       | POSManager61       |
+#      | posmanager62@info.com       | posmanager       | POSManager62       |
+#      | posmanager63@info.com       | posmanager       | POSManager63       |
+#      | posmanager64@info.com       | posmanager       | POSManager64       |
       | eventscrmmanager38@info.com | eventscrmmanager | EventsCRMManager38 |
       | eventscrmmanager39@info.com | eventscrmmanager | EventsCRMManager39 |

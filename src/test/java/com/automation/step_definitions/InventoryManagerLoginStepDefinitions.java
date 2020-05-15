@@ -7,7 +7,7 @@ import com.automation.utilities.Driver;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 
-public class InventoryManagerLoginStepDefinitions  extends BasePage {
+public class InventoryManagerLoginStepDefinitions extends BasePage {
 
     LoginPage loginPage = new LoginPage();
 

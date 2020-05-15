@@ -14,8 +14,13 @@ Feature: Login
 
     When user signs in with "<username>" username and "<password>" password
     Then user confirms successful login by getting "<current_username>" username
+    Then user navigates to CRM tab
     Then Manager clicks on create button
-    Then Manager creates a new opportunity
+    Then Manager enters opportunity title
+    And Manager selects customer name
+    And Manager sets the expected revenue
+    And Manager sets the priority
+    Then Manager clicks on create new opportunity button
     Examples:
       | username                    | password         | current_username   |
 #      | posmanager60@info.com       | posmanager       | POSManager60       |

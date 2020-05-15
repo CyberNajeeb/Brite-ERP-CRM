@@ -50,18 +50,12 @@ public abstract class BasePage {
      */
     public void navigateTo(String tabName) {
         String tabNameXpath = "//span[@class='oe_menu_text' and contains(text(),'" + tabName + "')]";
-
         WebElement tabElement = driver.findElement(By.xpath(tabNameXpath));
-
         Actions actions = new Actions(driver);
-
-        BrowserUtilities.wait(4);
-
         actions.moveToElement(tabElement).
                 pause(1000).
                 click(tabElement).
                 build().perform();
-
         //increase this wait time if still failing
         BrowserUtilities.wait(4);
         waitForLoaderMask();

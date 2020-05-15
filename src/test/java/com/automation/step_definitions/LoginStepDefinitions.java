@@ -11,23 +11,7 @@ import org.junit.Assert;
 public class LoginStepDefinitions extends BasePage {
 
     LoginPage loginPage = new LoginPage();
-    @When("user is on login page")
-    public void user_is_on_login_page() {
-        System.out.println("manager is on the login page");
-        Driver.getDriver().get(ConfigurationReader.getProperty("qa1"));
-    }
 
-    @Then("user logs in as CRM manager")
-    public void user_logs_in_as_CRM_manager() {
-        System.out.println("logs in as CRM manager");
-       loginPage.login();
-
-    }
-
-    @Then("user navigates to CRM tab")
-    public void user_Navigates_To_CRM_Tab() {
-        navigateTo("CRM");
-    }
     @Then("user logs in as Inventory manager")
     public void user_logs_in_as_Inventory_manager() {
         loginPage.login(ConfigurationReader.getProperty("InventoryManager"), ConfigurationReader.getProperty("InventoryManagerPassword"));
